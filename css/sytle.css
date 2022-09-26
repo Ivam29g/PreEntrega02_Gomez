@@ -1,4 +1,16 @@
+#menu {
+    height: 50px;
+}
 
+#menu ul {
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
 
 
 
