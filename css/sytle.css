@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #menu {
     height: 50px;
 }
@@ -13,25 +18,34 @@
 }
 
 .item {
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .item img{
+    margin: 15px;
+    width: 300px;
+}
+
+.container-fluid img{
     width: 200px;
 }
 
+.nav-link {
+    color: white
+}
+
 #btn {
+    width: 250px;
     height: 100px;
     margin-top: 60px;
-    line-height: 100px;
+    margin-left: 400px;
+    line-height: 70px;
     text-align: center;
-    font-family: "BebasNeue";
     transition: all 1s;
 }
 
 #btn a{
-    display: block;
-    font-family: "BebasNeue";
     font-size: 40px;
     letter-spacing: 3px;
     color: #00538c;
@@ -52,9 +66,14 @@
     text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
 }
 
-.lateral {
-    height: 350px;
+#productos h2 {
+    text-align: center;
 }
+
+#productos h3 {
+    text-align: center;
+}
+
 
 #footer{
     width: 100%;
