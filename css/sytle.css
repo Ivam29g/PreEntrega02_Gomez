@@ -17,6 +17,10 @@
     line-height: 50px;
 }
 
+.menu_navegacion {
+    margin-left: 880px;
+}
+
 .item {
     width: 300px;
     height: 300px;
@@ -49,6 +53,11 @@
     transition: all 400ms ease;
 }
 
+.cards {
+    justify-content: center;
+    justify-self: center;
+}
+
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%);
@@ -58,7 +67,7 @@
     width: 250px;
     height: 100px;
     margin-top: 60px;
-    margin-left: 400px;
+    margin-left: 765px;
     line-height: 70px;
     text-align: center;
     transition: all 1s;
@@ -88,53 +97,6 @@
 
 #productos h2 {
     text-align: center;
+    font-size: 40px;
 }
-
-#productos h3 {
-    text-align: center;
-}
-
-
-#footer{
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-}
-
-#footer .wrap{
-    width: 320px;
-    height: 370px;
-    margin: 40px;
-    text-align: center;
-    color: white;
-    font-family: "TrebuchetMS";
-}
-
-
-#footer ul{
-    text-align: left;
-    margin: 20px;
-    font-size: 25px;
-}
-
-#footer ul li{
-    margin-top: 10px;
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
-}
-
-#footer ul li a{
-    height: 40px;
-    transition: all 300ms;
-    text-decoration: none;
-    list-style: none;
-    color: #37bcf9;;
-}
-
-#footer ul li:hover a{
-    padding-left: 40px;
-    color: white;
-}
-
-
 
