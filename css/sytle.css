@@ -113,20 +113,29 @@ body{
     max-width: 600;
 }
 
-#carousel-page2 img {
-    width: 500px;
-}
-
-
 /*Estilos de Quienes_somos*/
 
 .quienes_somos {
     width: 600px;
     height: 800px;
+    margin-left: 500px;
+    margin-top: 60px;
 }
 
-.quienes_somos img{
-    width: 100px;
+.quienes_somos h2 {
+    font-size: 45px;
+}
 
+.quienes_somos p {
+    font-size: 25px;
+}
+
+
+
+
+
+.imagen02 img {
+    width: 500px;
+    height: 100px;
 }
 
