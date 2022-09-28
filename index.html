@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <header id="header" class="col-12">
                 <nav class="navbar navbar-expand-lg bg-dark">
@@ -40,11 +40,6 @@
                                 <a class="nav-link" href="./pages/quienes_somos.html">Contacto</a>
                               </li>
                             </ul>
-                          
-                        <!-- <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscae">
-                          <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form> -->
                       </div>
                     </div>
                   </nav>
@@ -77,34 +72,54 @@
         <main id="content">
             <section id="productos" class="col-12 mt-5">
                 <h2>Productos</h2>
-                <h3>Computadores nuevos y de segunda</h3>
                 <hr>
-                <div class="items row">
+                <div class="cards row">
 
                     <div class="card m-4" style="width: 18rem;">
                         <img src="./assets/img/pc_01.png" class="card-img-top mt-4" alt="Computador de escritorio">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Todo en uno HP 21</h5>
+                          <p class="card-text">
+                             Procesador: INTEL CELERON J4025
+                             Velocidad Procesador: 2.0 GHz a 2.9 GHz
+                             Número de Núcleos: 2
+                             Número Subprocesos: 2
+                             Disco Solido: Unidad de estado sólido PCIe® NVMe™ M.2 de 250GB
+                             Disco Mecanico: 1 Tera (1000gb)
+                             Memoria RAM: 8 GB DDR4
+                          .</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
 
                     <div class="card m-4" style="width: 18rem;">
                         <img src="./assets/img/pc_2.jpg" class="card-img-top" alt="Computador de escritorio">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Computador Gamer</h5>
+                          <p class="card-text">MONITOR INCLUIDO: 22 PULGADAS LED RESOLUCION FULL HD CON HDMI & VGA
+                            PROCESADOR: AMD RYZEN ™ 7 5700G.
+                            N.º DE NUCLEOS DE CPU: 8.
+                            N.º DE SUBPROCESOS 16.
+                            RELOJ BASE 3.8GHz.
+                            FRECUENCIA TURBO MAXIMA:HASTA 4.6 GHZ.
+                          .</p>
+                          <a href="#" class="btn btn-primary ">Ver Más</a>
                         </div>
                     </div>
 
                     <div class="card m-4" style="width: 18rem;">
                         <img src="./assets/img/tablet.jpg" class="card-img-top mt-5" alt="Computador de escritorio">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Tablet lenovo</h5>
+                          <p class="card-text">
+                            istema operativo: Android 10.0.
+                            Con procesador Octa-Core Qualcomm Kryo 260 de 2GHz.
+                            Resolución de pantalla de 2000px x 1200px.
+                            Con lector micro-SD.
+                            Cuenta con GPS.
+                            Memoria interna expandible hasta 256 GB con fuente externa.
+                          ..</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
                         </div>
                     </div>
 
@@ -125,17 +140,6 @@
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-
-                    <div class="card m-4" style="width: 18rem;">
-                        <img src="./assets/img/lenovo-tablet.png" class="card-img-top mt-3" alt="Computador de escritorio">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-
-
                 </div>
 
                 <article id="btn" class="mb-4">
@@ -144,23 +148,15 @@
 
             </section>
 
-            <footer id="footer" class="col-lg-12 bg-dark">
+            <footer id="footer" class="row col-lg-12 bg-dark">
                 <div class="wrap">
 
-                        <div id="menu_footer">
-                            <h5>MENÚ</h5>
-                            <ul>
-                                <li><a href="#">Inicio</a></li>
-                                <li><a href="#">¿Quienes somos?</a></li>
-                                <li><a href="#">Servicios</a></li>
-                                <li><a href="#">Contacto</a></li>
-                            </ul>
+                      <section id="section1" class="row col-6">
+                        <div id="concepto">
+                          <img src="./assets/img/logotipo.png" alt="logo de conceptotec">
                         </div>
-            
-                        <!-- <div id="location" class="d-flex justify-content-center pl-5">
-                            <h5>¿DONDE ESTAMOS?</h5>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15908.087307495387!2d-74.17536778771283!3d4.590105882314712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9fab3a8d22db%3A0x7cfe19869fe3520!2sCra.%2074i%20%26%20Cl.%2062g%20Sur%2C%20Cdad.%20Bol%C3%ADvar%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1654226961422!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>  -->
+                      </section>
+                       
                         
                 </div>
             </footer>
