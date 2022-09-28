@@ -109,10 +109,24 @@ body{
     overflow: hidden;
 }
 
+.carousel02 {
+    max-width: 600;
+}
+
+#carousel-page2 img {
+    width: 500px;
+}
+
 
 /*Estilos de Quienes_somos*/
 
-.menu-page2 {
-    width: 300px;
+.quienes_somos {
+    width: 600px;
+    height: 800px;
+}
+
+.quienes_somos img{
+    width: 100px;
+
 }
 
