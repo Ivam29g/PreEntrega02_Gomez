@@ -66,39 +66,6 @@ body{
     transform: translateY(-3%);
 }
 
-#btn {
-    width: 250px;
-    height: 100px;
-    margin-top: 60px;
-    margin-left: 765px;
-    line-height: 70px;
-    position: relative;
-    text-align: center;
-    transition: all 1s;
-}
-
-#btn a{
-    font-size: 40px;
-    letter-spacing: 3px;
-    color: #00538c;
-    text-decoration: none;
-    transition: 1s;
-}
-
-#btn:hover{
-    background-color: #333;
-    border: 10px solid #37bcf9;
-    border-radius: 240px;
-    box-shadow: 0px 0px 10px gray;
-    animation: blink 10s infinite linear;
-}
-
-#btn:hover a{
-    color: white;
-    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
-}
-
-
 #productos h2 {
     text-align: center;
     font-size: 40px;
@@ -132,7 +99,34 @@ body{
 
 
 .imagen02 img {
-    width: 500px;
+    width: 700px;
     height: 100px;
 }
 
+.contanier-fluid img {
+    width: 637px;
+}
+
+
+.card-img-top {
+    width: 100%;  
+}
+
+.text-center img {
+    width: 750px;
+}
+
+.contenido-titulo h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contenido-titulo p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenido-imagen img {
+    width: 600px;
+    margin-top: 40px;
+}
